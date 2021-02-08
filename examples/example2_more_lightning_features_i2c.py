@@ -29,7 +29,7 @@ import digitalio
 import sparkfun_qwiicas3935
 
 # Set up Interrupt pin on GPIO D6 with a pull-down resistor
-as3935_interrupt_pin = digitalio.DigitalInOut(board.D17)
+as3935_interrupt_pin = digitalio.DigitalInOut(board.D21)
 as3935_interrupt_pin.direction = digitalio.Direction.INPUT
 as3935_interrupt_pin.pull = digitalio.Pull.DOWN
 
